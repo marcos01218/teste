@@ -1,0 +1,93 @@
+.tudo {
+    background-color: aqua;
+}
+
+.cabecalho {
+    display: flex;
+    color: white;
+    height: 15%;
+    width: 100%;
+    background-color: #000000;
+    position: absolute;
+    overflow: hidden;
+    
+    
+    
+
+}
+
+
+.logo {
+    align-content: center;
+}
+
+.outros {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+    gap: 75px;
+    position: sticky;
+padding-left: 60%;
+position: relative;
+
+
+}
+
+
+.icone {
+    width: 40%;
+    height: auto;
+    display: none;
+}
+
+
+
+@media screen and (orientation: portrait) {
+
+
+
+    .outros {
+        padding: 0%;
+        gap: 0px;
+        margin-left: 200px;
+    
+        }
+
+        .logo {
+            position: absolute;
+            align-items: center;
+            margin-top: 18px;
+            margin-bottom: 1%;
+        }
+
+    .icone{
+
+        position: relative;
+        display: flex;
+        min-width: 80px;
+        max-width: 70%;
+        gap: 0px;
+        padding-bottom: 28px;
+    }
+    .texto {
+        display: none;
+    }
+
+    .projeto {
+        position: absolute;
+    }
+
+    .contato {
+        position: absolute;
+    }
+
+    .integrantes {
+        position: absolute;
+    }
+
+
+
+    
+    
+}
