@@ -2,6 +2,10 @@
     background-color: aqua;
 }
 
+.siteinteiro {
+    overflow-x: hidden;
+}
+
 .cabecalho {
     display: flex;
     height: 15%;
@@ -70,12 +74,19 @@ a:hover {
 
 @media screen and (orientation: portrait) {
 
+    .tudo {
+        overflow-x: hidden;
+    }
+
+    .cabecalho {
+        width: 480px;
+    }
 
 
     .outros {
         padding: 0%;
         gap: 0px;
-        margin-left: 37%;
+        margin-left: 33%;
 
     
         }
@@ -83,16 +94,15 @@ a:hover {
         .logo {
             position: absolute;
             align-items: center;
-            margin-top: 5%;
-            margin-bottom: 5%;
             padding-left: 10px;
+            padding-top: 5%;
         }
 
     .icone{
 
         position: relative;
         display: flex;
-        min-width: 80px;
+        min-width: 70px;
         max-width: 70%;
         gap: 0px;
         padding-bottom: 28px;
