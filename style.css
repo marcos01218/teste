@@ -1,5 +1,7 @@
 .tudo {
-    background-color: aqua;
+    background-image: radial-gradient(#413B6B, #251434 75%, #241233);
+    overflow-x: hidden;
+    position: relative;
 }
 
 .siteinteiro {
@@ -10,7 +12,7 @@
 
 .cabecalho {
     display: flex;
-    height: 15%;
+    height: 5%;
     width: 100%;
     background-color: #1C0B2B;
     position: absolute;
@@ -71,16 +73,36 @@ a:hover {
     text-decoration: underline;
 }
 
+.imagens {
+    display: flex;
+    padding-top: 15%;
+    gap: 10%;
+    align-content: center;
+    margin-left: 13%;
+}
+
+.foto {
+    border: 15px, solid, #1C0B2B;
+    border-radius: 50px;
+}
+
+.siteinteiro {
+    overflow-x: hidden;
+}
+
 
 
 @media screen and (orientation: portrait) {
 
     .tudo {
         overflow-x: hidden;
+        overflow-x: hidden;
+        height: 50%;
     }
 
     .cabecalho {
         width: 480px;
+        height: 13%;
     }
 
 
@@ -124,6 +146,17 @@ a:hover {
 
     .integrantes {
         position: absolute;
+    }
+
+    .foto {
+        width: 150%;
+        border: 5px, solid, #1C0B2B;
+        border-radius: 20px;
+        gap: 10%;
+    }
+
+    .imagens {
+        gap: 50%;
     }
 
 
