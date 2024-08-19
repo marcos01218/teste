@@ -6,6 +6,8 @@
     overflow-x: hidden;
 }
 
+.container {}
+
 .cabecalho {
     display: flex;
     height: 15%;
@@ -85,16 +87,17 @@ a:hover {
     .outros {
         padding: 0%;
         gap: 0px;
-        padding-left: 33%;
+        padding-left: 14%;
 
     
         }
 
         .logo {
-            position: absolute;
+            position: relative;
             align-items: center;
             padding-left: 10px;
-            padding-top: 30px;
+            padding-top: 10px;
+            padding-bottom: 10px;
         }
 
     .icone{
