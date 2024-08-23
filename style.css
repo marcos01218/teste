@@ -1,8 +1,8 @@
 .cabecalho {
     background-color: #1C0B2B;
-    height: 20%;
     position: relative;
     display: flex;
+    width: 100%;
 }
 
 .icones {
@@ -11,28 +11,118 @@
     position: relative;
 }
 
+.pc {
+    width: 100%
+    position: relative
+    margin: 0 auto
+    
+}
+
 .logo {
     width: 20%;
     margin-top: 6%;
     margin-bottom: 5%;
+    margin-left: 3%;
 
 }
 
 .projetos {
-    width: 13%;
-    margin-left: 18%;
-    margin-bottom: 6%;
+    width: 11%;
+    margin-left: 13%;
+    margin-bottom: 8%;
 }
 
 .integrantes {
-    width: 13%;
-    margin-left: 5%;
-    margin-bottom: 6%;
+    width: 11%;
+    margin-left: 10%;
+    margin-bottom: 8%;
 }
 
 .contato {
-    width: 13%;
-    margin-left: 5%;
-    margin-bottom: 5%;
+    width: 11%;
+    margin-left: 10%;
+    margin-bottom: 8%;
     margin-right: 6%;
+}
+
+.pc {
+    display: none;
+}
+
+@media screen and (orientation: landscape) {
+
+
+.pc {
+    display: flex;
+    gap: 15%;
+    align-items: center;
+    position: relative;
+    margin-right: 10%;
+    color: white;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <700>;
+    font-style: normal;
+    
+}
+
+.projetos {
+    display: none;
+}
+
+.contato {
+    display: none;
+}
+
+.integrantes {
+    display: none;
+}
+
+.cabecalho {
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+
+.logo {
+    width: 8%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+}
+
+
+.projetos2 {
+    font-size: 1.60vw;
+    margin-right: 10%;
+
+}
+
+.integrantes2{
+
+    font-size: 1.60vw;
+
+}
+
+.contato2 {
+    font-size: 1.60vw;
+    
+
+
+}
+
+a { color: inherit; }
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 }
