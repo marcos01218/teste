@@ -5,6 +5,13 @@
     width: 100%;
 }
 
+.tudo {
+    background-image: radial-gradient(#413B6B, #251434 75%, #241233); 
+
+    
+}
+
+
 .icones {
     width: 100%;
     margin: 0 auto;
@@ -13,9 +20,6 @@
 
 .pc {
     width: 100%
-    position: relative
-    margin: 0 auto
-    
 }
 
 .logo {
@@ -30,6 +34,7 @@
     width: 11%;
     margin-left: 13%;
     margin-bottom: 8%;
+    
 }
 
 .integrantes {
@@ -49,15 +54,35 @@
     display: none;
 }
 
+.imagens {
+    position: relative;
+    margin: 0 auto;
+
+}
+
+.imgseparado {
+    width: 70%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border: solid 13px #1C0B2B;
+    border-radius: 20px;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    
+}
+
+
+
 @media screen and (orientation: landscape) {
 
 
 .pc {
     display: flex;
-    gap: 15%;
+    gap: 10%;
     align-items: center;
     position: relative;
-    margin-right: 10%;
+    margin-left: 30%;
     color: white;
     font-family: "Orbitron", sans-serif;
     font-optical-sizing: auto;
@@ -66,15 +91,7 @@
     
 }
 
-.projetos {
-    display: none;
-}
-
-.contato {
-    display: none;
-}
-
-.integrantes {
+.projetos, .contato, .integrantes {
     display: none;
 }
 
@@ -85,28 +102,43 @@
 }
 
 .logo {
-    width: 8%;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    width: 16%;
+    margin-top: 3%;
+    margin-bottom: 3%;
     margin-left: 1%;
 }
 
 
 .projetos2 {
     font-size: 1.60vw;
-    margin-right: 10%;
+    color: #6F95FF;
+    text-decoration: underline;
 
 }
 
-.integrantes2{
+.integrantes2, .contato2 {
 
     font-size: 1.60vw;
 
 }
 
-.contato2 {
-    font-size: 1.60vw;
+.imagens { 
+    display: flex;
+    margin-right: auto;
+    text-align: center;
+    margin-left: 5% auto;
+    margin-right: auto;
+    justify-content: center;
+    gap: 10%;
     
+
+}
+
+.imgseparado {
+    width: 80%;
+    border: solid 1.2vw #1C0B2B;
+    
+}
 
 
 }
@@ -123,6 +155,4 @@ a:visited{
 
 a:hover {
     text-decoration: underline;
-}
-
 }
