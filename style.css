@@ -53,24 +53,14 @@
 .pc {
     display: none;
 }
-
-.imagens {
-    position: relative;
-    margin: 0 auto;
-
+.divisao {
+    display: flex;
+    align-items: center;
+    margin-left: 5% auto;
+    margin-right: auto;
 }
 
-.imgseparado {
-    width: 70%;
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-    border: solid 13px #1C0B2B;
-    border-radius: 20px;
-    margin-top: 15%;
-    margin-bottom: 15%;
-    
-}
+
 
 
 
@@ -120,24 +110,6 @@
 
     font-size: 1.60vw;
 
-}
-
-.imagens { 
-    display: flex;
-    margin-right: auto;
-    text-align: center;
-    margin-left: 5% auto;
-    margin-right: auto;
-    justify-content: center;
-    gap: 10%;
-    
-
-}
-
-.imgseparado {
-    width: 90%;
-    border: solid 1.2vw #1C0B2B;
-    
 }
 
 
