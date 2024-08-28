@@ -6,7 +6,7 @@
 }
 
 .tudo {
-    background-image: radial-gradient(#413B6B, #251434 75%, #241233); 
+    background-color: rgb(39, 21, 54);
 
     
 }
@@ -55,9 +55,36 @@
 }
 .divisao {
     display: flex;
-    align-items: center;
-    margin-left: 5% auto;
+    margin-left: auto;
     margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30vw;
+    width: 80%;
+    gap: 15vw;
+    vertical-align: auto;
+
+}
+
+.nome{
+    border-top: solid 1.5vw white ;
+    text-align: center;
+    color: white;
+    font-size: 5vw;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.fotinha{
+    vertical-align: bottom;
+}
+
+.contorno {
+
+    border: solid 1.5vw white;
+        border-radius: 1vw;
 }
 
 
@@ -99,21 +126,68 @@
 }
 
 
-.projetos2 {
+.integrantes2 {
     font-size: 1.60vw;
     color: #6F95FF;
     text-decoration: underline;
 
 }
 
-.integrantes2, .contato2 {
+.projetos2, .contato2 {
 
     font-size: 1.60vw;
 
 }
 
+.tudo {
+    background-color: rgb(39, 21, 54);
+    background-size: cover;
 
 }
+
+.divisao {
+    gap: 0w;
+    display: inline-flex;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    justify-content: left;
+    margin-top: 0vw;
+    width: 50%;
+    gap: 8vw;
+    vertical-align: auto;
+width: 40%;
+
+}
+
+.contorno {
+    border: solid 0.6vw white;
+}
+
+.nome {
+    border-top: solid 0.6vw white;
+    font-size: 3vw;
+}
+
+.pcintegrantes {
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 10vw;
+    gap: 8vw;
+    margin-top: 10% auto;
+    margin-bottom: 10% auto;
+    vertical-align: middle;
+    
+}
+
+.contorno:hover {
+
+    scale: 1.3;
+}
+
+}
+
+
 
 a { color: inherit; }
 
